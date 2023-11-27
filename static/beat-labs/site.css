@@ -30,18 +30,6 @@ footer .footer-widgets {
   padding: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.fa-facebook-f:before {
-  content: "\f39e"
+.fa-itch:before {
+  content: "i"
 }
