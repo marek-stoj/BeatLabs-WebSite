@@ -2,35 +2,33 @@
   <head>
     <meta charset="UTF-8" />
     <script>
-      window.onload = function () {
-        try {
-          var userLanguage = navigator.language || navigator.userLanguage;
+      try {
+        var userLanguage = navigator.language || navigator.userLanguage;
 
-          if (!userLanguage) {
-            userLanguage = "en";
-          }
-
-          userLanguage = userLanguage.toUpperCase();
-
-          var href = null;
-
-          if (userLanguage.startsWith("PL")) {
-            href = "/pl/";
-          } else if (userLanguage.startsWith("ZH")) {
-            href = "/zh/";
-          } else {
-            href = "/en/";
-          }
-
-          if (href) {
-            window.location.href = href;
-          }
-        } catch (error) {
-          console.error(error);
-
-          window.location.href = "/en/";
+        if (!userLanguage) {
+          userLanguage = "en";
         }
-      };
+
+        userLanguage = userLanguage.toUpperCase();
+
+        var href = null;
+
+        if (userLanguage.startsWith("PL")) {
+          href = "/pl/";
+        } else if (userLanguage.startsWith("ZH")) {
+          href = "/zh/";
+        } else {
+          href = "/en/";
+        }
+
+        if (href) {
+          window.location.href = href;
+        }
+      } catch (error) {
+        console.error(error);
+
+        window.location.href = "/en/";
+      }
     </script>
   </head>
   <body>
