@@ -1,7 +1,39 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="Refresh" content="0; url='/en/'" />
+    <script>
+      window.onload = function () {
+        try {
+          var userLanguage = navigator.language || navigator.userLanguage;
+
+          userLanguage = "pl";
+
+          if (!userLanguage) {
+            userLanguage = "en";
+          }
+
+          userLanguage = userLanguage.toUpperCase();
+
+          var href = null;
+
+          if (userLanguage.startsWith("PL")) {
+            href = "/pl/";
+          } else if (userLanguage.startsWith("ZH")) {
+            href = "/zh/";
+          } else {
+            href = "/en/";
+          }
+
+          if (href) {
+            window.location.href = href;
+          }
+        } catch (error) {
+          console.error(error);
+
+          window.location.href = "/en/";
+        }
+      };
+    </script>
   </head>
   <body></body>
 </html>
