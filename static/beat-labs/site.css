@@ -33,3 +33,7 @@ footer .footer-widgets {
 .fa-itch:before {
   content: "i"
 }
+
+.fa-patronite:before {
+  content: "p"
+}
