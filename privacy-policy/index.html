@@ -14,13 +14,13 @@
         var href = null;
 
         if (userLanguage.startsWith("EN")) {
-          href = "/en/";
+          href = "/en/privacy-policy/";
         } else if (userLanguage.startsWith("PL")) {
-          href = "/pl/";
+          href = "/pl/privacy-policy/";
         } else if (userLanguage.startsWith("ZH")) {
-          href = "/zh/";
+          href = "/zh/privacy-policy/";
         } else if (userLanguage.startsWith("KO")) {
-          href = "/ko/";
+          href = "/ko/privacy-policy/";
         }
 
         if (href) {
@@ -29,26 +29,30 @@
       } catch (error) {
         console.error(error);
 
-        window.location.href = "/en/";
+        window.location.href = "/en/privacy-policy/";
       }
     </script>
   </head>
   <body>
     <div>
-      <h1>Beat Labs</h1>
+      <h1>Beat Labs Privacy Policy</h1>
 
       <ul>
         <li>
-          <a href="/en/">Beat Labs in English</a>
+          <a href="/en/privacy-policy/">Beat Labs Privacy Policy in English</a>
         </li>
         <li>
-          <a href="/pl/">Beat Labs po polsku</a>
+          <a href="/pl/privacy-policy/"
+            >Beat Labs Polityka Prywatności po polsku</a
+          >
         </li>
         <li>
-          <a href="/zh/">中文的Beat Labs</a>
+          <a href="/zh/privacy-policy/">Beat Labs 中文版隐私政策</a>
         </li>
         <li>
-          <a href="/ko/">한국어로 Beat Labs</a>
+          <a href="/ko/privacy-policy/"
+            >한국어로 Beat Labs 개인정보 처리방침</a
+          >
         </li>
       </ul>
     </div>
