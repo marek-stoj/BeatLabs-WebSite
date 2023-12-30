@@ -1,8 +1,10 @@
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
 
     <title>Beat Labs</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
     <link
       rel="stylesheet"
@@ -30,6 +32,21 @@
       href="/static/fontawesome-free-6.4.0-web/css/solid.css"
       rel="stylesheet"
     />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BFS97CHYWG"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-BFS97CHYWG");
+    </script>
   </head>
   <body>
     <div class="wrapper">
@@ -102,10 +119,9 @@
                 <a href="https://www.facebook.com/BeatLabsGame">Facebook</a>
                 또는
                 <a href="#links">다른 플랫폼</a>
-                (아래에 더 많은 링크가 있습니다)에서도 확인하세요! 또한 이
-                프로젝트의 개발을 지원하는 것을 고려해주시고
+                (아래에 더 많은 링크가 있습니다)에서도 확인하세요! 이 프로젝트의 개발을 지원하는 것도 고려해 주세요.
                 <a href="https://www.patreon.com/BeatLabs">Patreon</a>
-                를 통해 지원해 주시기 바랍니다.
+                또는 <a href="/paypal">PayPal</a>을 통해.
               </p>
 
               <table align="center">
@@ -133,6 +149,16 @@
                     </td>
                     <td style="padding: 0 20 0 20">
                       <p style="text-align: center">
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                          <input type="hidden" name="cmd" value="_s-xclick" />
+                          <input type="hidden" name="hosted_button_id" value="9787DALNYL9XA" />
+                          <input type="hidden" name="currency_code" value="USD" />
+                          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" title="PayPal" alt="지금 구매" />
+                        </form>
+                      </p>
+                    </td>
+                    <td style="padding: 0 20 0 20">
+                      <p style="text-align: center">
                         <a href="https://www.facebook.com/BeatLabsGame">
                           <img
                             src="/static/beat-labs/img/facebook-button.png"
@@ -147,6 +173,18 @@
 
               <a name="gameplay-videos"></a>
               <h2>게임 플레이 비디오</h2>
+
+              <iframe
+                width="748"
+                height="421"
+                src="https://www.youtube.com/embed/Dsah_4TUqvM"
+                title="Christmas in Beat Labs"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+
+              <p></p>
 
               <iframe
                 width="748"
