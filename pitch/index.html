@@ -1,0 +1,79 @@
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BFS97CHYWG"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-BFS97CHYWG");
+    </script>
+
+    <script>
+      try {
+        var userLanguage = navigator.language || navigator.userLanguage;
+
+        if (!userLanguage) {
+          userLanguage = "en";
+        }
+
+        userLanguage = userLanguage.toUpperCase();
+
+        var href = null;
+
+        if (userLanguage.startsWith("EN")) {
+          href = "/en/pitch/";
+        } else if (userLanguage.startsWith("PL")) {
+          href = "/pl/pitch/";
+        } else if (userLanguage.startsWith("ZH")) {
+          href = "/zh/pitch/";
+        } else if (userLanguage.startsWith("KO")) {
+          href = "/ko/pitch/";
+        } else if (userLanguage.startsWith("JP")) {
+          href = "/jp/pitch/";
+        }
+
+        if (href) {
+          window.location.href = href;
+        }
+      } catch (error) {
+        console.error(error);
+
+        window.location.href = "/en/pitch/";
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <h1>Beat Labs Sales Pitch</h1>
+
+      <ul>
+        <li>
+          <a href="/en/pitch/">Beat Labs Sales Pitch in English</a>
+        </li>
+        <li>
+          <a href="/pl/pitch/">Prezentacja handlowa Beat Labs po polsku</a>
+        </li>
+        <li>
+          <a href="/zh/pitch/">Beat Labs在中文的销售演讲</a>
+        </li>
+        <li>
+          <a href="/ko/pitch/">한국어로 된 Beat Labs 판매 프리젠테이션</a>
+        </li>
+        <li>
+          <a href="/jp/pitch/">Beat Labsの日本語セールスプレゼンテーション</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
