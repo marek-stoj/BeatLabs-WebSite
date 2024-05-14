@@ -30,10 +30,6 @@ footer .footer-widgets {
   padding: 20px;
 }
 
-.fa-itch:before {
-  content: "i"
-}
-
 .fa-patronite:before {
   content: "p"
 }
