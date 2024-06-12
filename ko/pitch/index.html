@@ -20,13 +20,14 @@
       content="https://www.youtube.com/watch?v=xPIEBUgZ7fQ"
     />
 
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:locale:alternate" content="en_US" />
     <meta property="og:locale:alternate" content="pl_PL" />
     <meta property="og:locale:alternate" content="de_DE" />
     <meta property="og:locale:alternate" content="zh_CN" />
-    <meta property="og:locale:alternate" content="ko_KR" />
-    <meta property="og:locale:alternate" content="ja_JP" />
+    <!-- <meta property="og:locale:alternate" content="ko_KR" /> -->
     <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="ja_JP" />
     <!-- TEMPLATE END: meta -->
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -62,6 +63,8 @@
       rel="stylesheet"
     />
 
+    <script src="/static/beat-labs/site.js"></script>
+
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -95,28 +98,27 @@
                 <nav>
                   <ul id="menu" class="menu">
                     <li>
-                      <a href="/en/">Home</a>
+                      <a href="/ko/">Home</a>
                     </li>
                     <li>
-                      <a href="/en/pitch/">Pitch</a>
+                      <a href="/ko/pitch/">Pitch</a>
                     </li>
                     <li>
-                      <span>|</span>
-                    </li>
-                    <li>
-                      <a href="/pl/pitch/">Polish</a>
-                    </li>
-                    <li>
-                      <a href="/de/pitch/">German</a>
-                    </li>
-                    <li>
-                      <a href="/zh/pitch/">Chinese</a>
-                    </li>
-                    <li>
-                      <a href="/ko/pitch/">Korean</a>
-                    </li>
-                    <li>
-                      <a href="/ja/pitch/">Japanese</a>
+                      <select
+                        id="languageSelect"
+                        onchange="redirectToSelectedLanguagePage()"
+                      >
+                        <option value="/en/pitch/">영어</option>
+                        <option value="/pl/pitch/">폴란드어</option>
+                        <option value="/de/pitch/">독일어</option>
+                        <option value="/zh/pitch/">중국어</option>
+                        <option value="/ko/pitch/">한국어</option>
+                        <option value="/fr/pitch/">프랑스어</option>
+                        <option value="/ja/pitch/">일본어</option>
+                      </select>
+                      <script>
+                        initSelectedLanguageSelectValue();
+                      </script>
                     </li>
                   </ul>
                 </nav>

@@ -21,12 +21,13 @@
     />
 
     <meta property="og:locale" content="en_US" />
-    <meta property="og:locale:alternate" content="ja_JP" />
-    <meta property="og:locale:alternate" content="ko_KR" />
+    <!-- <meta property="og:locale:alternate" content="en_US" /> -->
     <meta property="og:locale:alternate" content="pl_PL" />
-    <meta property="og:locale:alternate" content="zh_CN" />
     <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ko_KR" />
     <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="ja_JP" />
     <!-- TEMPLATE END: meta -->
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -62,10 +63,16 @@
           href = "/en/";
         } else if (userLanguage.startsWith("PL")) {
           href = "/pl/";
+        } else if (userLanguage.startsWith("DE")) {
+          href = "/de/";
         } else if (userLanguage.startsWith("ZH")) {
           href = "/zh/";
         } else if (userLanguage.startsWith("KO")) {
           href = "/ko/";
+        } else if (userLanguage.startsWith("FR")) {
+          href = "/fr/";
+        } else if (userLanguage.startsWith("JA")) {
+          href = "/ja/";
         }
 
         if (href) {
@@ -90,10 +97,19 @@
           <a href="/pl/">Beat Labs po polsku</a>
         </li>
         <li>
+          <a href="/de/">Beat Labs auf Deutsch</a>
+        </li>
+        <li>
           <a href="/zh/">中文的Beat Labs</a>
         </li>
         <li>
           <a href="/ko/">한국어로 Beat Labs</a>
+        </li>
+        <li>
+          <a href="/fr/">Beat Labs en français</a>
+        </li>
+        <li>
+          <a href="/ja/">Beat Labs（日本語）</a>
         </li>
       </ul>
     </div>

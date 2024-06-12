@@ -21,12 +21,13 @@
     />
 
     <meta property="og:locale" content="en_US" />
-    <meta property="og:locale:alternate" content="ja_JP" />
-    <meta property="og:locale:alternate" content="ko_KR" />
+    <!-- <meta property="og:locale:alternate" content="en_US" /> -->
     <meta property="og:locale:alternate" content="pl_PL" />
-    <meta property="og:locale:alternate" content="zh_CN" />
     <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ko_KR" />
     <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="ja_JP" />
     <!-- TEMPLATE END: meta -->
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -62,10 +63,16 @@
           href = "/en/privacy-policy/";
         } else if (userLanguage.startsWith("PL")) {
           href = "/pl/privacy-policy/";
+        } else if (userLanguage.startsWith("DE")) {
+          href = "/de/privacy-policy/";
         } else if (userLanguage.startsWith("ZH")) {
           href = "/zh/privacy-policy/";
         } else if (userLanguage.startsWith("KO")) {
           href = "/ko/privacy-policy/";
+        } else if (userLanguage.startsWith("FR")) {
+          href = "/fr/privacy-policy/";
+        } else if (userLanguage.startsWith("JA")) {
+          href = "/ja/privacy-policy/";
         }
 
         if (href) {
@@ -92,10 +99,25 @@
           >
         </li>
         <li>
+          <a href="/de/privacy-policy/"
+            >Datenschutzrichtlinie von Beat Labs auf Deutsch</a
+          >
+        </li>
+        <li>
           <a href="/zh/privacy-policy/">Beat Labs 中文版隐私政策</a>
         </li>
         <li>
           <a href="/ko/privacy-policy/">한국어로 Beat Labs 개인정보 처리방침</a>
+        </li>
+        <li>
+          <a href="/fr/privacy-policy/"
+            >Politique de confidentialité de Beat Labs en français</a
+          >
+        </li>
+        <li>
+          <a href="/ja/privacy-policy/"
+            >Beat Labsのプライバシーポリシー（日本語）</a
+          >
         </li>
       </ul>
     </div>

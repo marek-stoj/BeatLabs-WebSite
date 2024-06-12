@@ -22,11 +22,12 @@
 
     <meta property="og:locale" content="pl_PL" />
     <meta property="og:locale:alternate" content="en_US" />
-    <meta property="og:locale:alternate" content="ja_JP" />
-    <meta property="og:locale:alternate" content="ko_KR" />
-    <meta property="og:locale:alternate" content="pl_PL" />
-    <meta property="og:locale:alternate" content="zh_CN" />
+    <!-- <meta property="og:locale:alternate" content="pl_PL" /> -->
     <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ko_KR" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="ja_JP" />
     <!-- TEMPLATE END: meta -->
 
     <title>Beat Labs</title>
@@ -59,6 +60,8 @@
       href="/static/fontawesome-free-6.4.0-web/css/solid.css"
       rel="stylesheet"
     />
+
+    <script src="/static/beat-labs/site.js"></script>
 
     <!-- Google tag (gtag.js) -->
     <script
@@ -99,19 +102,21 @@
                       <a href="/pl/pitch">pitch</a>
                     </li>
                     <li>
-                      <span>|</span>
-                    </li>
-                    <li>
-                      <a href="/en/">Angielski</a>
-                    </li>
-                    <li>
-                      <a href="/de/">Niemiecki</a>
-                    </li>
-                    <li>
-                      <a href="/zh/">Chiński</a>
-                    </li>
-                    <li>
-                      <a href="/ko/">Koreański</a>
+                      <select
+                        id="languageSelect"
+                        onchange="redirectToSelectedLanguagePage()"
+                      >
+                        <option value="/en/">Angielski</option>
+                        <option value="/pl/">Polski</option>
+                        <option value="/de/">Niemiecki</option>
+                        <option value="/zh/">Chiński</option>
+                        <option value="/ko/">Koreański</option>
+                        <option value="/fr/">Francuski</option>
+                        <option value="/ja/">Japoński</option>
+                      </select>
+                      <script>
+                        initSelectedLanguageSelectValue();
+                      </script>
                     </li>
                   </ul>
                 </nav>

@@ -22,10 +22,12 @@
 
     <meta property="og:locale" content="ko_KR" />
     <meta property="og:locale:alternate" content="en_US" />
-    <meta property="og:locale:alternate" content="ja_JP" />
     <meta property="og:locale:alternate" content="pl_PL" />
-    <meta property="og:locale:alternate" content="zh_CN" />
     <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <!-- <meta property="og:locale:alternate" content="ko_KR" /> -->
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="ja_JP" />
     <!-- TEMPLATE END: meta -->
 
     <title>Beat Labs</title>
@@ -58,6 +60,8 @@
       href="/static/fontawesome-free-6.4.0-web/css/solid.css"
       rel="stylesheet"
     />
+
+    <script src="/static/beat-labs/site.js"></script>
 
     <!-- Google tag (gtag.js) -->
     <script
@@ -98,19 +102,21 @@
                       <a href="/ko/pitch">피치덱</a>
                     </li>
                     <li>
-                      <span>|</span>
-                    </li>
-                    <li>
-                      <a href="/en/">영어</a>
-                    </li>
-                    <li>
-                      <a href="/pl/">폴란드어</a>
-                    </li>
-                    <li>
-                      <a href="/de/">독일어</a>
-                    </li>
-                    <li>
-                      <a href="/zh/">중국어</a>
+                      <select
+                        id="languageSelect"
+                        onchange="redirectToSelectedLanguagePage()"
+                      >
+                        <option value="/en/">영어</option>
+                        <option value="/pl/">폴란드어</option>
+                        <option value="/de/">독일어</option>
+                        <option value="/zh/">중국어</option>
+                        <option value="/ko/">한국어</option>
+                        <option value="/fr/">프랑스어</option>
+                        <option value="/ja/">일본어</option>
+                      </select>
+                      <script>
+                        initSelectedLanguageSelectValue();
+                      </script>
                     </li>
                   </ul>
                 </nav>

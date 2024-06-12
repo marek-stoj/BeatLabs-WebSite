@@ -21,12 +21,13 @@
     />
 
     <meta property="og:locale" content="en_US" />
-    <meta property="og:locale:alternate" content="ja_JP" />
-    <meta property="og:locale:alternate" content="ko_KR" />
+    <!-- <meta property="og:locale:alternate" content="en_US" /> -->
     <meta property="og:locale:alternate" content="pl_PL" />
-    <meta property="og:locale:alternate" content="zh_CN" />
     <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ko_KR" />
     <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="ja_JP" />
     <!-- TEMPLATE END: meta -->
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -62,11 +63,15 @@
           href = "/en/pitch/";
         } else if (userLanguage.startsWith("PL")) {
           href = "/pl/pitch/";
+        } else if (userLanguage.startsWith("DE")) {
+          href = "/de/pitch/";
         } else if (userLanguage.startsWith("ZH")) {
           href = "/zh/pitch/";
         } else if (userLanguage.startsWith("KO")) {
           href = "/ko/pitch/";
-        } else if (userLanguage.startsWith("JP")) {
+        } else if (userLanguage.startsWith("FR")) {
+          href = "/fr/pitch/";
+        } else if (userLanguage.startsWith("JA")) {
           href = "/ja/pitch/";
         }
 
@@ -92,13 +97,21 @@
           <a href="/pl/pitch/">Prezentacja handlowa Beat Labs po polsku</a>
         </li>
         <li>
+          <a href="/de/pitch/">Beat Labs Verkaufspräsentation auf Deutsch</a>
+        </li>
+        <li>
           <a href="/zh/pitch/">Beat Labs在中文的销售演讲</a>
         </li>
         <li>
           <a href="/ko/pitch/">한국어로 된 Beat Labs 판매 프리젠테이션</a>
         </li>
         <li>
-          <a href="/jp/pitch/">Beat Labsの日本語セールスプレゼンテーション</a>
+          <a href="/fr/pitch/"
+            >Argumentaire de vente de Beat Labs en français</a
+          >
+        </li>
+        <li>
+          <a href="/ja/pitch/">Beat Labsの日本語セールスプレゼンテーション</a>
         </li>
       </ul>
     </div>

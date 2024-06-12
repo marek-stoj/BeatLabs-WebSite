@@ -22,10 +22,12 @@
 
     <meta property="og:locale" content="zh_CN" />
     <meta property="og:locale:alternate" content="en_US" />
-    <meta property="og:locale:alternate" content="ja_JP" />
-    <meta property="og:locale:alternate" content="ko_KR" />
     <meta property="og:locale:alternate" content="pl_PL" />
     <meta property="og:locale:alternate" content="de_DE" />
+    <!-- <meta property="og:locale:alternate" content="zh_CN" /> -->
+    <meta property="og:locale:alternate" content="ko_KR" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="ja_JP" />
     <!-- TEMPLATE END: meta -->
 
     <title>节拍实验室 Beat Labs</title>
@@ -58,6 +60,8 @@
       href="/static/fontawesome-free-6.4.0-web/css/solid.css"
       rel="stylesheet"
     />
+
+    <script src="/static/beat-labs/site.js"></script>
 
     <!-- Google tag (gtag.js) -->
     <script
@@ -98,19 +102,21 @@
                       <a href="/zh/pitch">融资演讲</a>
                     </li>
                     <li>
-                      <span>|</span>
-                    </li>
-                    <li>
-                      <a href="/en/">英语</a>
-                    </li>
-                    <li>
-                      <a href="/pl/">波蘭文</a>
-                    </li>
-                    <li>
-                      <a href="/de/">德语</a>
-                    </li>
-                    <li>
-                      <a href="/ko/">韩语</a>
+                      <select
+                        id="languageSelect"
+                        onchange="redirectToSelectedLanguagePage()"
+                      >
+                        <option value="/en/">英语</option>
+                        <option value="/pl/">波蘭文</option>
+                        <option value="/de/">德语</option>
+                        <option value="/zh/">中文</option>
+                        <option value="/ko/">韩语</option>
+                        <option value="/fr/">法文</option>
+                        <option value="/ja/">日文</option>
+                      </select>
+                      <script>
+                        initSelectedLanguageSelectValue();
+                      </script>
                     </li>
                   </ul>
                 </nav>

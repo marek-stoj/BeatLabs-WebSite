@@ -20,13 +20,14 @@
       content="https://www.youtube.com/watch?v=xPIEBUgZ7fQ"
     />
 
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:locale:alternate" content="ja_JP" />
-    <meta property="og:locale:alternate" content="ko_KR" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="en_US" />
     <meta property="og:locale:alternate" content="pl_PL" />
-    <meta property="og:locale:alternate" content="zh_CN" />
     <meta property="og:locale:alternate" content="de_DE" />
-    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    <meta property="og:locale:alternate" content="ko_KR" />
+    <!-- <meta property="og:locale:alternate" content="fr_FR" /> -->
+    <meta property="og:locale:alternate" content="ja_JP" />
     <!-- TEMPLATE END: meta -->
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -59,6 +60,8 @@
       href="/static/fontawesome-free-6.4.0-web/css/solid.css"
       rel="stylesheet"
     />
+
+    <script src="/static/beat-labs/site.js"></script>
 
     <!-- Google tag (gtag.js) -->
     <script
@@ -99,19 +102,21 @@
                       <a href="/en/pitch">Pitch</a>
                     </li>
                     <li>
-                      <span>|</span>
-                    </li>
-                    <li>
-                      <a href="/pl/">Polonais</a>
-                    </li>
-                    <li>
-                      <a href="/de/">Allemand</a>
-                    </li>
-                    <li>
-                      <a href="/zh/">Chinois</a>
-                    </li>
-                    <li>
-                      <a href="/ko/">Coréen</a>
+                      <select
+                        id="languageSelect"
+                        onchange="redirectToSelectedLanguagePage()"
+                      >
+                        <option value="/en/">English</option>
+                        <option value="/pl/">Polonais</option>
+                        <option value="/de/">Allemand</option>
+                        <option value="/zh/">Chinois</option>
+                        <option value="/ko/">Coréen</option>
+                        <option value="/fr/">Français</option>
+                        <option value="/ja/">Japonais</option>
+                      </select>
+                      <script>
+                        initSelectedLanguageSelectValue();
+                      </script>
                     </li>
                   </ul>
                 </nav>
