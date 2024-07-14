@@ -1,10 +1,10 @@
 ========================================
 
-**Pitch Deck: Beat Labs - Revolutionizing the VR/XR World of Rhythm & Music**
+**Pitch Deck: Beat Labs - Revolutionizing the VR/MR World of Rhythm & Music**
 
 *Overview*
 
-Beat Labs is not just another rhythm game; it's an expansive open sandbox designed for Virtual and Mixed Reality (VR/XR). Drawing inspiration from the success of Beat Saber, a classic VR title with over $250 million in revenue, Beat Labs aims to surpass its predecessor by evolving into a dynamic platform for immersive experiences. We envision Beat Labs as a hub for music and rhythm-based mini-games, driven by content from us, the player community, and cutting-edge AI.
+Beat Labs is not just another rhythm game; it's an expansive open sandbox designed for Virtual and Mixed Reality (VR/MR). Drawing inspiration from the success of Beat Saber, a classic VR title with over $250 million in revenue, Beat Labs aims to surpass its predecessor by evolving into a dynamic platform for immersive experiences. We envision Beat Labs as a hub for music and rhythm-based mini-games, driven by content from us, the player community, and cutting-edge AI.
 
 *Key Features*
 
@@ -19,7 +19,7 @@ Beat Labs is not just another rhythm game; it's an expansive open sandbox design
 Certainly! Here are some suggested improvements to the text:
 
 1. **Overview:**
-   - "Beat Labs, an open sandbox for rhythm games in Virtual and Mixed Reality (VR/XR), draws inspiration from the iconic Beat Saber, which has achieved over $250 million in revenue. However, Beat Labs aspires to transcend Beat Saber by evolving into a versatile platform for immersive rhythm experiences rather than a standalone game."
+   - "Beat Labs, an open sandbox for rhythm games in Virtual and Mixed Reality (VR/MR), draws inspiration from the iconic Beat Saber, which has achieved over $250 million in revenue. However, Beat Labs aspires to transcend Beat Saber by evolving into a versatile platform for immersive rhythm experiences rather than a standalone game."
 
 2. **Gameplay Showcase:**
    - "Experience the diversity of Beat Labs through immersive showcases:
@@ -39,12 +39,12 @@ Certainly! Here are some suggested improvements to the text:
 
 5. **Business:**
    - "Monetize Beat Labs through various channels:
-      - Leverage VR/XR headset vendor stores, such as Meta Quest Store, PICO Store, and Apple App Store.
+      - Leverage VR/MR headset vendor stores, such as Meta Quest Store, PICO Store, and Apple App Store.
       - Explore DLCs via subscriptions or micro-transactions for songs, environments, skins, gameplay mechanics, mods, and customizations.
       - Utilize Beat Labs' assets to develop distinct games for separate marketing strategies."
 
 6. **Stats:**
-   - "Market statistics show a thriving VR/XR market, with Meta Quest leading in North America and Europe, PICO dominating East-Asian markets, and Apple Vision Pro poised to revolutionize the industry."
+   - "Market statistics show a thriving VR/MR market, with Meta Quest leading in North America and Europe, PICO dominating East-Asian markets, and Apple Vision Pro poised to revolutionize the industry."
 
 7. **Team:**
    - "Meet Marek Stój, an experienced software developer with over 15 years in .NET, C#, Android, Java, Big Data, Scala, and Unity 3D. His expertise fuels Beat Labs' vision in the game development industry."
@@ -57,7 +57,7 @@ Remember to integrate these suggestions in a way that maintains the flow and coh
 ========================================
 
 1. **Overview:**
-   - "Beat Labs, the virtual playground for rhythm rebels in Virtual and Mixed Reality (VR/XR), takes a cue from the legendary Beat Saber, which has raked in more cash than a futuristic bank heist - a whopping $250 million! But wait, Beat Labs isn't just another game; it's the cool kid on the block, evolving into a rhythm rollercoaster that's more versatile than a chameleon at a paint store."
+   - "Beat Labs, the virtual playground for rhythm rebels in Virtual and Mixed Reality (VR/MR), takes a cue from the legendary Beat Saber, which has raked in more cash than a futuristic bank heist - a whopping $250 million! But wait, Beat Labs isn't just another game; it's the cool kid on the block, evolving into a rhythm rollercoaster that's more versatile than a chameleon at a paint store."
 
 2. **Gameplay Showcase:**
    - "Prepare your funny bones for a wild ride in Beat Labs:
@@ -129,7 +129,7 @@ A game-changer's arrival, as anticipation blooms.
 For the young seeking speed, reflex, and thrill,
 Beat Labs awaits, a rhythmic skill.
 Adults, for fitness and laid-back play,
-In VR/XR's embrace, where time slips away.
+In VR/MR's embrace, where time slips away.
 
 Seniors join the gaming parade,
 Novel experiences, a memory cascade.
@@ -148,7 +148,7 @@ Beat Labs assets, a treasure to find,
 Diversifying revenue, a business of the mind.
 
 **Stats:**
-In the VR/XR market, a thriving sea,
+In the VR/MR market, a thriving sea,
 Meta Quest in the West, reigning with glee.
 PICO in the East, a rising star,
 Apple Vision Pro, set to go far.
@@ -209,7 +209,7 @@ Change is comin', it ain't the same.
 For the young guns, speed and thrill,
 Beat Labs awaits, showin' mad skill.
 Adults, fitness and laid-back play,
-In VR/XR land, where time slips away.
+In VR/MR land, where time slips away.
 
 Seniors joinin' the gaming scene,
 Novel vibes, like a virtual dream.
@@ -228,7 +228,7 @@ Beat Labs assets, a treasure so fine,
 Diversifyin' revenue, we're on the grind.
 
 **Stats:**
-In the VR/XR scene, it's a hustlin' spree,
+In the VR/MR scene, it's a hustlin' spree,
 Meta Quest's got the West, can't you see?
 PICO's rockin' the East, risin' high,
 Apple Vision Pro, soon gonna fly.
@@ -254,7 +254,7 @@ Join the discourse, at dsc.gg/beatlabs, take a seat.
 
 Yo, gather 'round, let me spin a rhyme,
 About Beat Labs, where it's rhythm and time.
-In the VR/XR world, we're setting the stage,
+In the VR/MR world, we're setting the stage,
 Inspired by Beat Saber, we're on the rampage.
 
 Not just a game, it's a platform so grand,
@@ -268,19 +268,19 @@ Customize your world, make it your own,
 Beat Labs swag, let the rhythm be known.
 
 Meta Quest, PICO, and Apple's on the list,
-In the VR/XR realm, we're here to assist.
+In the VR/MR realm, we're here to assist.
 20 million sold, Quest's got the might,
 PICO in Asia, it's taking flight.
 
 Apple Vision Pro, a game-changer in sight,
-The VR/XR world, about to ignite.
+The VR/MR world, about to ignite.
 PC VR, SteamVR, a massive store,
 Google and Samsung knocking on the door.
 
 Young guns, gamers with reflexes so quick,
 In Beat Labs, the competition's slick.
 Casual players, laid back and cool,
-In VR/XR, we make the rules.
+In VR/MR, we make the rules.
 
 Seniors join the beat, casual and chill,
 Gaming for fun, getting a thrill.
@@ -305,6 +305,6 @@ In Beat Labs, where every voice transcends.
 So join the crew, feel the rhythm and flow,
 Beat Labs is the place where legends grow.
 Check the link, peep the community vibe,
-In the world of VR/XR, where Beat Labs thrives.
+In the world of VR/MR, where Beat Labs thrives.
 
 ========================================
