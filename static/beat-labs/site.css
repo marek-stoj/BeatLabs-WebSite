@@ -86,7 +86,6 @@ b {
   color: #3b3b3b;
   font-size: 30px;
   line-height: 30px;
-  text-transform: lowercase;
 }
 @media screen and (max-width: 414px) {
   .wrapper header .logo a {
